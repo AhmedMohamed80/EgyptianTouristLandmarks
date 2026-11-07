@@ -1,0 +1,9 @@
+app_subdir = "laravel_project"
+
+config = laravel_config(
+    schema = 1,
+)
+
+build = laravel_build(config)
+
+serve = laravel_serve(config, build)
